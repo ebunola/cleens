@@ -1,6 +1,7 @@
 const Validator = require('validator');
 const isEmpty = require('./is-empty');
 
+//Export Validate Post Input
 module.exports = function validatePostInput(data) {
   let errors = {};
 

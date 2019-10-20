@@ -1,6 +1,7 @@
 const Validator = require('validator');
 const isEmpty = require('./is-empty');
 
+//Export Validate Profile Input
 module.exports = function validateProfileInput(data) {
   let errors = {};
 
