@@ -53,4 +53,5 @@ const PostSchema = new Schema({
   }
 });
 
+//Export Validate Post Input
 module.exports = Post = mongoose.model('post', PostSchema);

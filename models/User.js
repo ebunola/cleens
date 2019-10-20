@@ -24,4 +24,5 @@ const UserSchema = new Schema({
   }
 });
 
+//Export Validate User Input
 module.exports = User = mongoose.model('users', UserSchema);

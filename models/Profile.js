@@ -117,4 +117,5 @@ const ProfileSchema = new Schema({
   }
 });
 
+//Export Validate Profile Input
 module.exports = Profile = mongoose.model('profile', ProfileSchema);
